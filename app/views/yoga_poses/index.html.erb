@@ -1,0 +1,17 @@
+<h1>Yoga Poses</h1>
+
+<table class="table table-striped table-hover">
+
+  <tbody>
+    <% @yoga_poses.each do |p| %>
+      <tr>
+        <td><%= link_to p.name, yoga_pose_path(p) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
+
+<p>
+  <%= link_to 'New Pose', nil, class: 'btn btn-primary' %>
+</p>

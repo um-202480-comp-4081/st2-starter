@@ -1,0 +1,13 @@
+<h1><%= @yoga_pose.name %> Pose</h1>
+
+<p>
+  <i><%= @yoga_pose.sanskrit %></i>
+</p>
+
+<p>
+  Part of Body: <%= @yoga_pose.part_of_body %>
+</p>
+
+<p>
+  <%= link_to 'Back', yoga_poses_path, class: 'btn btn-secondary' %>
+</p>

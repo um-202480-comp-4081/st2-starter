@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  root to: redirect('yoga_poses')
+
+  get 'yoga_poses', to: 'yoga_poses#index', as: 'yoga_poses'
+  get 'yoga_poses/:id', to: 'yoga_poses#show', as: 'yoga_pose'
 end
