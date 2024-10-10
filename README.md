@@ -19,8 +19,8 @@ Time Limit: 30 minutes
    - Once you are in the organization, click on the **“New repository”** button at the top-right of the page.
    - On the next page:
      - **Owner**: Ensure that the owner is set to **um-202480-comp-4081**.
-     - **Repository template**: From the list of available templates, select the **`st1-starter`** template. This will create the repository with the starter code for this assignment.
-     - **Repository name**: Name your repository using the following format: `st1-<um-username>`. Replace `<um-username>` with your actual University of Memphis username (e.g., `st1-jdoe`).
+     - **Repository template**: From the list of available templates, select the **`st2-starter`** template. This will create the repository with the starter code for this assignment.
+     - **Repository name**: Name your repository using the following format: `st2-<um-username>`. Replace `<um-username>` with your actual University of Memphis username (e.g., `st2-jdoe`).
      - **Repository privacy**: Set the repository to **Private**, so that only you and your instructors can access it.
    - After filling out these details, click **Create repository**.
 
